@@ -27,7 +27,7 @@ composer install
 To get started with the FYS SDK, follow these steps:
 
 1. Initialize the SDK: Create an instance of the SdkClient class by passing the appropriate configuration options.
-    ```json
+    ```php
     use FYS\Sdk\SdkClient;
     use FYS\Sdk\SdkConfiguration;
 
@@ -36,13 +36,13 @@ To get started with the FYS SDK, follow these steps:
 
 2. Make API Requests: Use the methods provided by the SdkClient class to interact with the FYS API.
 
-    ```json
+    ```php
     $endpoint = "/api/resource";
     $response = $client->getApiResponse($endpoint);
 
 3. Handle Responses: Process the API responses according to your application's requirements.
 
-    ```json
+    ```php
     if ($response) {
         // Handle the successful API response
     } else {
@@ -55,7 +55,7 @@ The FYS SDK includes a set of unit tests to ensure the correctness and reliabili
 To run the tests:
 1. Open the terminal and navigate to the SDK project directory.
 2. Run the following command to execute all the tests:
-     ```json    
+     ```php
     composer test
 
 ## Contributing
