@@ -13,7 +13,7 @@ The FYS SDK is a PHP library that provides an easy-to-use interface for interact
 
 You can install the FYS SDK via [Packagist](https://packagist.org/packages/fys/sdk). Simply add the following line to your project's `composer.json` file:
 
-    ```json
+    ```php
     "require": {
         "fys/sdk": "^1.0"
     }
