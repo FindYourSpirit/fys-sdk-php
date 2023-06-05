@@ -1,0 +1,10 @@
+<Project Sdk="Devsense.Php.Sdk">
+  <PropertyGroup Label="Globals">
+    <ProjectGuid>8a718523-e9a5-48b4-990a-a10824184990</ProjectGuid>
+  </PropertyGroup>
+  <PropertyGroup>
+    <EnvName>PHPDev</EnvName>
+    <RuntimeVersion>8.2</RuntimeVersion>
+    <WebRoot>public</WebRoot>
+  </PropertyGroup>
+</Project>
